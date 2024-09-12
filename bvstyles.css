@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html { 
+  background: url('images/WebpageBG2.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    z-index: 1;
+    font-weight: bold;
+}
+
+.hero {
+	text-align: center;
+	z-index: 3;
+	letter-spacing: 1px;
+	float: right;
+	margin-top: 6%;
+	margin-right: 6%;
+}
+
+h1 {
+	color: white;
+	font-size: 45px;
+	font-weight: 900;
+}
+
+h2 {
+	color: white;
+	font-size: 45px;
+	letter-spacing: 1.23px;
+	margin-top: 4px;
+}
+
+.highlight {
+	background-color: rgb(27, 158, 217);
+	border-radius: 6px;
+	padding: 3px 4px; 
+	padding-left: 2%;
+}
+
+h3 {
+	color: white;
+	font-size: 45px;
+	margin-top: 4px;
+}
+
+h4 {
+	color: white;
+	font-size: 30px;
+	margin-top: 3%;
+}
+
+h5 {
+	color: white;
+	font-size: 20px;
+	margin-top: 14%;
+	color: rgb( 241, 228, 163);
+	font-weight: bolder;
+}
+
+h6 {
+	font-size: 18px;
+	margin-top: 4px;
+	color: rgb( 241, 228, 163);
+	font-weight: bolder;
+
+}
+
+input {
+	border-radius: 10px;
+	width: 100%;
+	height: 46px;
+	font-size: 20px;
+	border: none;
+	margin-top: 3.2%;
+}
+
+button {
+	border-radius: 10px;
+	width: 100%;
+	height: 46px;
+	font-size: 20px;
+	background-color:  rgb(27, 158, 217);
+	margin-top: 3.5%;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	border: none;
+
+}
+
+
+.logo-img {
+	width: 170px;
+	height: 170px;
+	overflow: hidden;
+	margin-top: 26px;
+	margin-left: 26px;
+	z-index: 2;
+	float: left;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+html { 
+  background: url('images/MobileBG6.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    z-index: 1;
+    font-weight: bold;
+}
+.hero {
+	text-align: center;
+	z-index: 3;
+	letter-spacing: 1px;
+	float: right;
+	margin-top: 12%;
+	margin-right: 6%;
+	margin-left: 6%;
+}
+.logo-img {
+	width: 160px;
+	height: 160px;
+	display: block;
+  	margin-left: 29%;
+  	margin-right: 29%;
+  	margin-top: 25%;
+	z-index: 2;
+}
+h1 {
+	color: white;
+	font-size: 30px;
+	font-weight: 900;
+}
+
+h2 {
+	color: white;
+	font-size: 30px;
+	letter-spacing: 1.23px;
+	margin-top: 4px;
+}
+
+.highlight {
+	background-color: rgb(27, 158, 217);
+	border-radius: 6px;
+	padding: 3px 4px; 
+	padding-left: 2%;
+	margin-top: 4px;
+}
+
+h3 {
+	color: white;
+	font-size: 30px;
+	margin-top: 4px;
+}
+
+h4 {
+	color: white;
+	font-size: 18px;
+	margin-top: 3%;
+}
+
+h5 {
+	font-size: 16px;
+	margin-top: 12%;
+	color: rgb( 241, 228, 163);
+	font-weight: bolder;
+}
+
+h6 {
+	font-size: 14px;
+	margin-top: 4px;
+	color: rgb( 241, 228, 163);
+	font-weight: bolder;
+
+}
+
+input {
+	border-radius: 10px;
+	width: 100%;
+	height: 36px;
+	font-size: 20px;
+	border: none;
+	margin-top: 3.5%;
+}
+
+button {
+	border-radius: 10px;
+	width: 100%;
+	height: 36px;
+	font-size: 20px;
+	background-color:  rgb(27, 158, 217);
+	margin-top: 3.5%;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	border: none;
+
+}
+
+
+}
